@@ -60,4 +60,17 @@ ul li a{
     color:#fff;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:orange;
+}
+
+/* search styling */
+
+.search{
+    width:330px;
+    float:left;
+    margin: left 270px;
 }
