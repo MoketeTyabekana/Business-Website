@@ -11,7 +11,7 @@
 }
                  
 .navbar{
-    width: 100%;
+    width: 1200x;
     height: 75px;
     margin: auto;
     border-bottom: 1px solid orange;
@@ -87,7 +87,7 @@ ul li a:hover{
     padding: 10px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
-    color: #fff;
+    color: #000;
     font-size: large;
     border-right:none;
     float:left;
@@ -110,5 +110,10 @@ ul li a:hover{
 }
 
 
+.btn:focus{
+    outline:none;
+}
 
-
+.srchbar:focus{
+    outline:none;
+}
