@@ -11,10 +11,10 @@
 }
                  
 .navbar{
-    width: 1200x;
+    width:1200px;
     height: 75px;
     margin: auto;
-    border-bottom: 1px solid orange;
+    
 }
 
 .icon{
@@ -116,4 +116,55 @@ ul li a:hover{
 
 .srchbar:focus{
     outline:none;
+}
+
+
+/* Content */
+.content{
+    width:1200px;
+    height: auto;
+    margin: auto;
+    color:#fff;
+    position: relative;
+}
+
+
+/* content paragraph */
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    padding-left: 20px;
+    font-family: 'Time New Roman';
+    letter-spacing: 2px;
+    font-size: 35px;
+    margin-top: 7%;
+}
+
+/* Content Button */
+.content .btnContent{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.content .btnContent a{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s ease;
+}
+
+ .btnContent:hover{
+    background-color: rgb(0, 48, 153);
 }
