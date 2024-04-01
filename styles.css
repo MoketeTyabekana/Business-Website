@@ -164,31 +164,33 @@ ul li a:hover{
     margin-left: 20px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 18px;
+    
 }
 
 .content .btnContent a{
     text-decoration: none;
-    color: #fff;
     transition: .3s ease;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    color: #fff;
 }
 
  .btnContent:hover{
     background-color: rgb(253, 114, 0);
+    
 }
 
 .form{
     width:250px;
-    height: 350px;
+    height: 380px;
     background:#000;
     position: absolute;
     top: -20px;
     left: 870px;
     border-radius: 10px;
     padding: 25px;
+   
 }
 
 .form h2{
@@ -226,7 +228,7 @@ font-family: sans-serif;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.btnLogin{
+.form .btnLogin{
     width:240px;
     height:40px;
     background:orange;
@@ -238,29 +240,53 @@ font-family: sans-serif;
     color:#fff;
 }
 
-.btnLogin:hover{
+.form .btnLogin a{
+    text-decoration: none;
+    color: #fff;
+    font-weight:bold;
+    font-size: 18px;
+    transition: .3s ease;
+  }
+
+  .form .btnLogin:hover{
     background-color: rgb(253, 114, 0);
 }
 
-.btnLogin a{
-  text-decoration: none;
-  color: #fff;
-  font-weight:bold;
-  font-size: 18px;
-  transition: .3s ease;
-}
 
-.form .link{
+
+.form .link {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 17px;
-    padding-top:20px;
+    padding-top:10px;
     text-align: center;
+    color:#fff;
 }
 
-.form a{
+.form  a{
     text-decoration:none;
     color:orange;
     font: size 17px;
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
+   
+}
+
+.with{
+    padding-top:15px;
+    padding:10px;
+    text-align:center;
+}
+
+.icons{
+    text-decoration: none;
+    color:#fff;
+    text-align:center
+}
+
+.icons ion-icon{
+    color :orange;
+    font-size: 20px;
+    padding-left:14px;
+    padding-top: 5px;
+
 }
